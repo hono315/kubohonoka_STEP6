@@ -1,0 +1,74 @@
+body{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: pink;
+}
+
+h2{
+   text-align: center;
+}
+
+main{
+    display:flex ;
+}
+
+sidebar{
+    width: 30%;
+    background-color: #7FFFD3;
+   
+}
+
+ul{
+    padding: 40px ;
+}
+
+form{
+      width: 70%;
+      background-color: #FFEECC;
+      display: flex;
+      flex-direction: column;
+      justify-content:center;
+      align-items: center; 
+      padding: 50px;
+}
+
+table {
+    border: 3px solid gray;
+}
+
+th, td {
+    border: 3px solid gray;
+}
+
+td{
+    width: 70%;
+}
+
+
+input {
+  max-width: 40ch;
+}
+
+.submit-btn{
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+    margin-right: 30px;
+    flex-direction: column;
+    gap: 5px;
+  
+}
+
+footer{
+    background-color: #DCDCDC;
+    text-align: center;
+    height: 100px;
+}
