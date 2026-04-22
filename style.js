@@ -29,8 +29,8 @@ form.addEventListener("submit", function (e) {
     }
 });
 
-const colorButton = document.getElementById("colorButton");
-const footer = document.getElementById("footer");
+const colorButton = document.querySelector("#colorButton");
+const footer = document.querySelector("#footer");
 
 const colors = ["blue", "red", "yellow", "gray"];
 let currentIndex = 0;

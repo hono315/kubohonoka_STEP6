@@ -52,11 +52,6 @@ td{
     width: 70%;
 }
 
-
-input {
-  max-width: 40ch;
-}
-
 .submit-btn{
     display: flex;
     flex-direction: column;

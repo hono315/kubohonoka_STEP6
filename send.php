@@ -38,9 +38,9 @@ $is_sent = mail($to, $subject, $body, $headers);
 <body>
     <h1>お問い合わせフォーム-送信完了画面</h1>
     <?php if ($is_sent): ?>
-        <p>お問い合わせが送信されました。ありがとうございます！</p>
+        <p><?php echo "お問い合わせが送信されました。ありがとうございます！"; ?></p>
     <?php else: ?>
-        <p>メール送信に失敗しました。</p>
+        <p><?php echo "メール送信に失敗しました。"; ?></p>
     <?php endif; ?>
     <a href="contact.php">お問い合わせフォームに戻る</a>
 </body>
