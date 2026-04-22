@@ -28,19 +28,19 @@
             <table>
                 <tr>
                     <th><label for="name">お名前</label></th>
-                    <td><input type="text" id="name" name="name"></td>
+                    <td><input type="text" id="name" name="name" size="40"></td>
                 </tr>
                 <tr>
                     <th><label for="companyName">会社名</label></th>
-                    <td><input type="text" id="companyName" name="companyName"></td>
+                    <td><input type="text" id="companyName" name="companyName" size="40"></td>
                 </tr>
                 <tr>
                     <th><label for="email">メールアドレス</label></th>
-                    <td><input type="email" id="email" name="email"></td>
+                    <td><input type="email" id="email" name="email" size="40"></td>
                 </tr>
                 <tr>
                     <th><label for="age">年齢</label></th>
-                    <td><input type="number" id="age" name="age"></td>
+                    <td><input type="number" id="age" name="age" size="40"></td>
                 </tr>
                 <tr>
                     <th><label for="message">お問い合わせ内容</label></th>
